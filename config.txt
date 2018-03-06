@@ -1,0 +1,42 @@
+[light-1-a-1]
+type = PhilipsHue
+room = room_1_a
+floor = 1
+log = lights
+config = iot:1003,sat:242,brigh:154,hue:8200
+
+[light-1-a-2]
+type = PhilipsHue
+room = room_1_a
+floor = 1
+log = lights
+config = iot:1008,sat:242,brigh:154,hue:8200
+
+[light-2-a-1]
+type = PhilipsHue
+room = room_2_a
+floor = 2
+log = lights
+config = iot:1008,sat:242,brigh:154,hue:8200
+
+[light-2-a-2]
+type = PhilipsHue
+room = room_2_a
+floor = 2
+log = lights
+config = iot:1011,sat:242,brigh:154,hue:8200
+
+[lightC-1-1]
+type = PhilipsCtrl
+room = room_1_a
+floor = 1
+log = lightsCtrl
+config = token:123,event:PhilipsHue,from:room_1_a
+
+[lightC-2-1]
+type = PhilipsCtrl
+room = room_2_a
+floor = 2
+log = lightsCtrl
+config = token:456,event:PhilipsHue,from:room_2_a
+
